@@ -12,3 +12,4 @@
 ![laptop3](https://user-images.githubusercontent.com/65374030/145887091-b8b67553-337f-467d-b7c1-949430c9a605.jpg)
 ![laptop2](https://user-images.githubusercontent.com/65374030/145887093-7226d6d1-f0ee-491a-a30a-6acb9b5734b2.jpg)
 ![laptop 1](https://user-images.githubusercontent.com/65374030/145887334-7f976adf-f776-4786-a5f9-652c5100023a.jpg)
+![map](https://user-images.githubusercontent.com/65374030/145902488-08f72125-d191-434f-8d4c-d77e434287b2.jpg)
