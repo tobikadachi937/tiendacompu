@@ -8,11 +8,9 @@
 ![tech_camera](https://user-images.githubusercontent.com/65374030/145883178-431efb7a-550f-4f6b-9d53-b45a932d3c39.jpg)
 ![tech_tableturner](https://user-images.githubusercontent.com/65374030/145883269-602cde31-cbc0-463f-8f87-b2fe9e564905.jpg)
 ![tech_typewriter](https://user-images.githubusercontent.com/65374030/145883306-1ad8fe08-2010-4327-901e-fd9816bec0bc.jpg)
-
-
-
-
-
+![laptop4](https://user-images.githubusercontent.com/65374030/145887085-690a4b6c-5fdf-44c0-bff3-da71a9d4bcb5.jpg)
+![laptop3](https://user-images.githubusercontent.com/65374030/145887091-b8b67553-337f-467d-b7c1-949430c9a605.jpg)
+![laptop2](https://user-images.githubusercontent.com/65374030/145887093-7226d6d1-f0ee-491a-a30a-6acb9b5734b2.jpg)
 
 
 
