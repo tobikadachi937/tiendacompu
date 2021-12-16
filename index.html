@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="sp">
+<title>Expertos en Computadoras</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+} 
+
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://user-images.githubusercontent.com/65374030/145873725-72639f91-c03d-4e07-badc-611c441872ec.jpg");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+} 
+
+#logo{
+    margin: all;
+    width:20%;
+    height: 130px;
+    background: url(https://user-images.githubusercontent.com/65374030/145651083-32bf91a0-7f6c-44c7-8c6d-c530e747593a.jpg)no-repeat right;
+    float: left;
+    margin-right: 50px;
+}
+</style>
+<body>
+  <div id="logo"></div>
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide"> </a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small"> 
+      <a href="#servicios" onclick="w3_close()" class="w3-bar-item w3-button"><i class="fa fa-desktop"></i>  Servicios</a>
+      <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i>  Productos</a>
+      <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-usd"></i>  Paquetes</a>
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i>  Contactanos</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close X</a>
+  <a href="#servicios" onclick="w3_close()" class="w3-bar-item w3-button">Servicios</a>
+  <a href="#laptop" onclick="w3_close()" class="w3-bar-item w3-button">Productos</a>
+  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">Paquetes</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">Contactanos</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small">Expertos en Computación</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">Expertos en Computación</span><br>
+    <span class="w3-large">Dejenos guiarlos en el asombroso mundo de la computación.</span>
+    <p><a href="#laptop" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Explora nuestros productos y servicios</a></p>
+  </div> 
+  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+    <a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity" ></i></a>
+    <a href= "http://www.instagram.com" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <a href= "http://www.snapchat.com" target="_blank"><i class="fa fa-snapchat w3-hover-opacity"></i></a>
+    <a href= "http://www.pinterest.com" target="_blank"><i class="fa fa-pinterest-p w3-hover-opacity"></i></a>
+    <a href= "http://www.twitter.com" target="_blank"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+    <a href= "http://www.linkedin.com" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  </div>
+</header>
+
+<!-- About (servicios) Section -->
+<div class="w3-container" style="padding:128px 16px" id="servicios">
+  <h3 class="w3-center">Nuestros Servicios</h3>
+  
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+      <p class="w3-large">Lo último en computadoras</p>
+      <p>Poseemos una gran cantidad de modelos, desde procesadores i3 hasta i7 de 11 generación</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Pasión</p>
+      <p>Nos encanta lo que hacemos por lo cual procuramos realizar un buen servicio para que nuestros clientes también se enamoren de la tecnología</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Diseños</p>
+      <p>Tenemos a su disposición gran variedad de artículos que los asombraran, mira nuestros <a href="#home">diseños</a> y descubre porque somos los mejores en calidad y precio. </p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">24/7</p>
+      <p>Servicio al cliente las 24 horas del día, será un placer atender cualquier</p>
+    </div>
+  </div>
+</div>
+
+<!-- Team (laptop) Section -->
+<div class="w3-container" style="padding:128px 16px" id="laptop">
+  <h3 class="w3-center">L A P T O P</h3>
+  <p class="w3-center w3-large">Las mejores herramientas para explotar tu potencial</p>
+  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="https://user-images.githubusercontent.com/65374030/145887334-7f976adf-f776-4786-a5f9-652c5100023a.jpg" alt="Accer Predator" style="width:100%">
+        <div class="w3-container">
+          <h3>Acer Predator Helios 300 PH315-54-760S Laptop Gaming</h3>
+          <p> Intel i7-11800H, NVIDIA GeForce RTX 3060 Laptop GPU, 15.6" Full HD 144Hz 3ms IPS Display, 16GB</p>
+          <br><br><br><br><br>
+          <p><button class="w3-button w3-light-grey w3-block"> $1,426.99</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="https://user-images.githubusercontent.com/65374030/145887093-7226d6d1-f0ee-491a-a30a-6acb9b5734b2.jpg" alt="HP Pavilon" style="width:100%">
+        <div class="w3-container">
+          <h3>HP Pavilion Gaming</h3>
+          <p>15.6 pulgadas Micro-EDGE Laptop, Intel Core i5-9300H, NVIDIA GeForce GTX 1650 (4 GB), 8 GB SDRAM, 256 GB SSD, Windows 10 Home (15-dk0020nr, Shadow Black/Acid Verde)</p>
+          <br><br><br><br><br><br><br>
+          <p><button class="w3-button w3-light-grey w3-block">$783.00</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="https://user-images.githubusercontent.com/65374030/145887091-b8b67553-337f-467d-b7c1-949430c9a605.jpg" alt="asus" style="width:100%">
+        <div class="w3-container">
+          <h3>ASUS - ASUS TUF 17.3</h3>
+          <p>144Hz FHD IPS, laptop para gaming con procesador Intel Tiger Lake Core i5-10300H, tarjeta gráfica NVIDIA GeForce RTX 1650 Ti, 8 GB de RAM DDR4, SSD PCie de 512 GB de almacenamiento, teclado retroiluminado RGB, sistema operativo Windows 10, color negro, FX706LI-ES53</p>
+          <br><br><br><br>
+          <p><button class="w3-button w3-light-grey w3-block">$849.84</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="https://user-images.githubusercontent.com/65374030/145887085-690a4b6c-5fdf-44c0-bff3-da71a9d4bcb5.jpg" alt="HP Envy" style="width:100%">
+        <div class="w3-container">
+          <h3>HP Laptop Envy 13 pulgadas</h3>
+          <p>Gráficos Intel Iris Xe: rendimiento impresionante para la creación, los juegos y el entretenimiento; un nuevo nivel de rendimiento gráfico y imágenes nítidas e impresionantes, con la comodidad de un portátil fino y ligero
+            Pantalla táctil Full HD IPS de 13,3", FHD (1920 x 1080), multitáctil, IPS, cristal de extremo a extremo, microbordes, BrightView</p>
+          <p><button class="w3-button w3-light-grey w3-block">$888.99</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Promo Section "Statistics" -->
+<div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">+14</span>
+    <br>Socios
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">+55</span>
+    <br>Proyectos concluidos
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">+100</span>
+    <br>Clientes felices
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">+100<span>
+    <br>Artículos
+  </div>
+</div>
+
+<!-- Work Section -->
+<div class="w3-container" style="padding:128px 16px" id="work">
+  <h3 class="w3-center">Otros Productos</h3>
+  <p class="w3-center w3-large">Explora nuestros diversos productos</p>
+
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-col l3 m6">
+      <img src="https://everyrose3.w3spaces.com/tech_mic.jpg?bypass-cache=26731697" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="microfono">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="https://user-images.githubusercontent.com/65374030/145882879-b9c02313-66a9-460a-8de1-fd93ab5c1203.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="celular">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="https://user-images.githubusercontent.com/65374030/145882955-dab12607-05c4-49a8-a90f-87146b51a816.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="un drone">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="https://user-images.githubusercontent.com/65374030/145883031-68d25122-cf8b-4a4c-b99f-edadb2f0b345.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="parlantes">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="https://user-images.githubusercontent.com/65374030/145883090-4915bacd-115d-4b34-9c18-e09614076c8f.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Una tablet">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="https://user-images.githubusercontent.com/65374030/145883178-431efb7a-550f-4f6b-9d53-b45a932d3c39.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Una camara">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="https://user-images.githubusercontent.com/65374030/145883306-1ad8fe08-2010-4327-901e-fd9816bec0bc.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Una maquina de escribir">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="https://user-images.githubusercontent.com/65374030/145883269-602cde31-cbc0-463f-8f87-b2fe9e564905.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A tableturner">
+    </div>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">X</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Skills Section -->
+<div class="w3-container w3-light-grey w3-padding-64">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>Nuestras Habilidades</h3>
+      <p>Nuestro trato al cliente siempre va a ser transparente y honesto, por eso elaboramos estos parámetos para que puedan darse una idea de nuestras habilidades.</p>
+    </div>
+    <div class="w3-col m6">
+      <p class="w3-wide"><i class="fa fa-camera w3-margin-right"></i>Desarrollo Web</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:90%">90%</div>
+      </div>
+      <p class="w3-wide"><i class="fa fa-desktop w3-margin-right"></i>Productos a su disposición</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:85%">95%</div>
+      </div>
+      <p class="w3-wide"><i class="fa fa-photo w3-margin-right"></i>Conocimiento en hardware y software</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:75%">95%</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Pricing Section -->
+<div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="pricing">
+  <h3>Paquetes</h3>
+  <p class="w3-large">Escoge el paquete que mejor se adapte a tus necesidades</p>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Básico</li>
+        <li class="w3-padding-16"> Disco Duro <b>10GB</b></li>
+        <li class="w3-padding-16"><b></b> Tarjeta Madre</li>
+        <li class="w3-padding-16">Procesador <b>i5</b></li>
+        <li class="w3-padding-16"><b></b> Garantía</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">$499.99</h2>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-black w3-padding-large">Compra</button>
+        </li>
+      </ul>
+    </div>
+    <div class="w3-third">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-red w3-xlarge w3-padding-48">Pro  (más vendido)</li>
+        <li class="w3-padding-16">Disco Duro <b> 25GB</b></li>
+        <li class="w3-padding-16"><b></b>Tarjeta Madre</li>
+        <li class="w3-padding-16">Procesador <b> i7</b> </li>
+        <li class="w3-padding-16"><b></b>Garantía</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">$699.99</h2>
+         
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-black w3-padding-large">Compra</button>
+        </li>
+      </ul>
+    </div>
+    <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Premium</li>
+        <li class="w3-padding-16">Disco Duro <b> 50GB</b></li>
+        <li class="w3-padding-16"><b></b> Tarjeta Madre</li>
+        <li class="w3-padding-16">Procesador <b> i7 10gen</b></li>
+        <li class="w3-padding-16"><b></b>Garantía</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">$999.99</h2>
+          
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-black w3-padding-large">Compra</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div> 
+
+<!-- Promo Section - "We know design" -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>Diseñadores Web</h3>
+      <p>Conoce a nuestro equipo de desarrolladores web, los cúales lo asesoraran en su proyecto.</p>
+      <p><a href="https://tobikadachi937.github.io/webcreatorsoriginal/" target="_blank"class="w3-button w3-black"><i class="fa fa-th"></i> Portafolio Web</a></p>
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="https://user-images.githubusercontent.com/65374030/145881769-f1ea0eb3-93e5-4769-b03b-4cfe2c1dd3fd.png" alt="Web de desarrolladores web" width="700" height="394">
+    </div>
+  </div>
+</div>
+
+<!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">Contactanos</h3>
+  <p class="w3-center w3-large">Estamos a tu entera disposición</p>
+  <div style="margin-top:48px">
+    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Cartago, 10 mts sur cementerio central</p>
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Teléfono: +00 151515</p>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: expertosencomputadoras@gmail.com</p>
+    <br>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-border" type="text" placeholder="Nombre" required name="Name"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Detalle" required name="Subject"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Consulta" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-black" type="submit">
+          <i class="fa fa-paper-plane"></i> Envía msj
+        </button>
+      </p>
+    </form>
+    <!-- Image of location/map -->
+    <img src="https://user-images.githubusercontent.com/65374030/145902488-08f72125-d191-434f-8d4c-d77e434287b2.jpg" class="w3-image w3-greyscale" style="width:100%;margin-top:48px">
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Inicio</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p>Copyright © <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">Web Creators Inc. </a> All rights reserved</p>
+</footer>
+  
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>
